@@ -9,7 +9,7 @@ import networktables
 # Creates the GUI
 root_tk = tkinter.Tk()
 root_tk.geometry("800x500")
-root_tk.title("sidecar")
+root_tk.title("sidecar")#hi
 
 # Initialize network tables and set default values FIX THE IP
 networktables.NetworkTables.initialize(server="10.6.95.2")
